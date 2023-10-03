@@ -32,13 +32,19 @@ export default function Header() {
                 </div>
                 <div className="menu hidden md:flex items-center">
                     <ul className="list-none flex font-bold mr-3">
-                        <li className="text-blue-600 px-4 cursor-pointer hover:text-blue-600">{i18n[lang].HOME}</li>
+                        <li className="text-blue-600 px-4 cursor-pointer hover:text-blue-600">
+                            <a href='#home'>{i18n[lang].HOME}</a>
+                        </li>
                         <li className="text-blue-800 px-4 cursor-pointer hover:text-blue-600">{i18n[lang].ABOUT}</li>
-                        <li className="text-blue-800 px-4 cursor-pointer hover:text-blue-600">{i18n[lang].SERVICES}</li>
-                        <li className="text-blue-800 px-4 cursor-pointer hover:text-blue-600">Portfolio</li>
+                        <li className="text-blue-800 px-4 cursor-pointer hover:text-blue-600">
+                            <a href='#service'>{i18n[lang].SERVICES}</a>
+                        </li>
+                        <li className="text-blue-800 px-4 cursor-pointer hover:text-blue-600">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
                         <li className="text-blue-800 px-4 cursor-pointer hover:text-blue-600">{i18n[lang].CONTACT}</li>
                         <li className="text-blue-800 px-4 cursor-pointer hover:text-blue-600">
-                            <a href="https://github.com/orgs/def-zone/people" rel="noreferrer" target="_blank">Team</a>
+                            <a href="#team">Team</a>
                         </li>
                     </ul>
                     <a className="px-6 py-2 bg-blue-600 text-white font-bold rounded hover:bg-blue-700" href="https://github.com/def-zone/get-started" target="_blank" rel="noreferrer">Join as Team</a>

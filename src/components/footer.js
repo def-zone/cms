@@ -51,7 +51,7 @@ export default function Footer() {
                     <div className="py-4">
                         <div className="mb-2">Thien Huong, Thuy Nguyen, Hai Phong</div>
                         <div className="mb-2"><b className="mr-2">Phone:</b><a href="telto:84762559696">(+84) 762.559.696</a></div>
-                        <div className="mb-2"><b className="mr-2">E-Mail:</b><a href="mailto:f7deat@gmail.com">f7deat@gmail.com</a></div>
+                        <div className="mb-2"><b className="mr-2">E-Mail:</b><a href="mailto:defzone.net@gmail.com">defzone.net@gmail.com</a></div>
                     </div>
                 </div>
             </div>

@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: url(https://www.laboontech.com/assets/img/hero-bg.png) fixed center;
+  background: url('./img/hero-bg.png') fixed center;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -88,20 +92,24 @@ body {
 
 .footer {
   background: white url('./img/footer-bg.png') right top no-repeat;
-  .title {
-    font-size: 16px;
-    font-weight: bold;
-    color: #012970;
-    text-transform: uppercase;
-    padding-bottom: 12px;
-    text-align: left;
+  
+  
+}
+
+.footer ul {
+  font-size: 15px;
+  li {
+    padding: 5px 0;
   }
-  ul {
-    font-size: 15px;
-    li {
-      padding: 5px 0;
-    }
-  }
+}
+
+.footer .title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #012970;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  text-align: left;
 }
 
 .shadow {

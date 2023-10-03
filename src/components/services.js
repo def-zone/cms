@@ -15,7 +15,7 @@ export default function Services() {
 
   return (
     <section className="md:mb-20 mb-10 services">
-      <div className="sub-title text-center">{i18n[lang].SERVICES}</div>
+      <div className="sub-title text-center" id='service'>{i18n[lang].SERVICES}</div>
       <div className="title text-blue-900 mb-10">We provide best quality services to our Client</div>
       <div className="md:flex">
         <div className="md:w-1/2 p-4 md:p-0">

@@ -5,11 +5,12 @@ import feature3 from '../img/features-3.png';
 import Services from '../components/services';
 import Feature from '../components/feature';
 import CardService from '../components/card-service';
+import Portfolio from '../components/portfolio';
 
 export default function Home() {
     return (
         <div>
-            <section>
+            <section id='home'>
                 <div className="md:flex items-center md:py-40">
                     <div className="md:w-1/2 md:px-20">
                         <div className="font-bold text-center md:text-left text-blue-900 sologan" data-aos="fade-up">
@@ -52,6 +53,7 @@ export default function Home() {
             </section>
             <Statistic />
             <Services />
+            <Portfolio />
             <Team />
         </div>
     )

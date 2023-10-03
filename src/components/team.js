@@ -13,7 +13,7 @@ export default function Team() {
 
     return (
         <section className="team md:mb-20 mb-10 p-4 md:p-0">
-            <div className="sub-title text-center">TEAM</div>
+            <div className="sub-title text-center" id="team">TEAM</div>
             <div className="title text-blue-900 mb-10">Our hard working team</div>
             <div className="flex flex-wrap">
                 {
