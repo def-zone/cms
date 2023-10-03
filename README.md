@@ -1,20 +1,10 @@
-# Getting Started with DefCMS
+# Getting Started
 
-Contact me for coding and deploying
+### Install
 
-## Available Feature
+- `npm i`
+- `npm start`
 
-# Everything
+### Deploy
 
-In the CMS, you can:
-- Analyzing
-- Making a Progressive Web App
-- Advanced Configuration
-
-### Contact
-
-- Zalo: 0762559797
-- Facebook: tan.dct
-- Twitter: f7deat
-- Instagram: f7deat
-- Telegram: +84855401196
+Deploy to github pages: `npm run deploy`
