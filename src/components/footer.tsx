@@ -1,17 +1,6 @@
 import logo from '../img/def-cms.png';
-import i18n from '../i18n.json';
-import { useState, useEffect } from 'react';
 
 export default function Footer() {
-    
-    const [lang, setLang] = useState('en-US')
-
-    useEffect(() => {
-        let langStorage = sessionStorage.getItem('lang');
-        if (langStorage) {
-            setLang(langStorage)
-        }
-    }, [])
 
     return (
         <footer className="border-t footer">
@@ -29,9 +18,9 @@ export default function Footer() {
                 <div className="md:w-2/12 mb-4">
                     <div className="title">USEFUL LINKS</div>
                     <ul>
-                        <li><i className="ri-arrow-drop-right-line text-blue-300"></i> <a className="text-blue-900" href="home">{i18n[lang].HOME}</a></li>
-                        <li><i className="ri-arrow-drop-right-line text-blue-300"></i> <a className="text-blue-900" href="about-us">{i18n[lang].ABOUT}</a></li>
-                        <li><i className="ri-arrow-drop-right-line text-blue-300"></i> <a className="text-blue-900" href="services">{i18n[lang].SERVICES}</a></li>
+                        <li><i className="ri-arrow-drop-right-line text-blue-300"></i> <a className="text-blue-900" href="home">Home</a></li>
+                        <li><i className="ri-arrow-drop-right-line text-blue-300"></i> <a className="text-blue-900" href="about-us">About</a></li>
+                        <li><i className="ri-arrow-drop-right-line text-blue-300"></i> <a className="text-blue-900" href="services">Services</a></li>
                         <li><i className="ri-arrow-drop-right-line text-blue-300"></i> <a className="text-blue-900" href="#term">Terms of service</a></li>
                         <li><i className="ri-arrow-drop-right-line text-blue-300"></i> <a className="text-blue-900" href="#privacy">Privacy policy</a></li>
                     </ul>
@@ -47,7 +36,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className="md:w-3/12 text-sm">
-                    <div className="title">{i18n[lang].CONTACT}</div>
+                    <div className="title">Contact</div>
                     <div className="py-4">
                         <div className="mb-2">Thien Huong, Thuy Nguyen, Hai Phong</div>
                         <div className="mb-2"><b className="mr-2">Phone:</b><a href="telto:84762559696">(+84) 762.559.696</a></div>

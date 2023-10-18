@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 
 export default function Team() {
 
-    const [members, setMembers] = useState([])
+    const [members, setMembers] = useState<any>([])
 
     useEffect(() => {
         axios.get('https://api.github.com/orgs/def-zone/members').then(response => {
@@ -17,14 +17,14 @@ export default function Team() {
             <div className="title text-blue-900 mb-10">Our hard working team</div>
             <div className="flex flex-wrap">
                 {
-                    members && members.map(member => <Item key={member.id} member={member}/>)
+                    members && members.map((member: any) => <Item key={member.id} member={member}/>)
                 }
             </div>
         </section>
     )
 }
 
-function Item(props) {
+function Item(props: any) {
     return (
         <div className="w-1/2 md:w-2/12 transition duration-700 mb-4 md:px-4 px-2" data-aos="fade-up">
             <div className="bg-white rounded shadow">

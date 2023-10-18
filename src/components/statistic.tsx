@@ -21,7 +21,7 @@ export default function Statistic() {
     )
 }
 
-function Item(props) {
+function Item(props: any) {
     return (
         <div className="md:w-1/4 counts mb-4 px-4">
             <div className="count-box shadow flex" data-aos="fade-up">

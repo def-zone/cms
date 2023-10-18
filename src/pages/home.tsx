@@ -6,6 +6,7 @@ import Services from '../components/services';
 import Feature from '../components/feature';
 import CardService from '../components/card-service';
 import Portfolio from '../components/portfolio';
+import Pricing from '../components/pricing';
 
 export default function Home() {
     return (
@@ -54,6 +55,7 @@ export default function Home() {
             <Statistic />
             <Services />
             <Portfolio />
+            <Pricing />
             <Team />
         </div>
     )

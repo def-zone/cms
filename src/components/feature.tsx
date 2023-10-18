@@ -11,7 +11,7 @@ export default function Feature() {
    )
 }
 
-function Item(props) {
+function Item(props: any) {
     return (
         <div className="flex md:w-1/2 mb-6" data-aos="fade-up">
             <div className="py-3">
